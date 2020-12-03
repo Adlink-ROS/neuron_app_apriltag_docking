@@ -2,7 +2,7 @@ repositories:
   neuronbot2:
     type: git
     url: https://github.com/Adlink-ROS/neuronbot2.git
-    version: 1e29cd32a81abc7fb8f06f3e1801cf0c0d49ae09
+    version: 5dcfc38a1324f5224f1f0e4a28684a8065766c7d
   rplidar_ros:
     type: git
     url: https://github.com/Adlink-ROS/rplidar_ros.git
@@ -11,7 +11,21 @@ repositories:
     type: git
     url: https://github.com/Adlink-ROS/serial.git
     version: f7871723cd631072a5fda6289a8d689dfb53b57d
-  slam_gmapping:
+  apriltag:
     type: git
-    url: https://github.com/Adlink-ROS/slam_gmapping
-    version: ff3daf1876a2a4aef993260cc28f627528b16247
+    url: https://github.com/AprilRobotics/apriltag.git
+    version: e0ba863c65589e551e9d8647874a83f39978b473
+  apriltag_ros:
+    type: git
+    url: https://github.com/H-HChen/apriltag_ros.git
+    version: 7ba1e1ec8770f11504f0f8083878440c7617af32
+  apriltag_docking:
+    type: git
+    url: https://github.com/H-HChen/apriltag_docking.git
+    version: 7ba1e1ec8770f11504f0f8083878440c7617af32
+  realsense-ros
+    type: git
+    url: https://github.com/Adlink-ROS/realsense-ros.git
+    version: 42df47ad3612e6a07e082c5e3913cf06b47bb83f
+  
+    
