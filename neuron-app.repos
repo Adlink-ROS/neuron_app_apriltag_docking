@@ -25,7 +25,7 @@ repositories:
     version: b47a12dfb943a07c13b813bbd64b20cdded398ef
   realsense-ros
     type: git
-    url: https://github.com/Adlink-ROS/realsense-ros.git
-    version: 42df47ad3612e6a07e082c5e3913cf06b47bb83f
+    url: https://github.com/H-HChen/realsense-ros.git
+    version: ade1ced047120c01f963ea4991fee4bef4d66c4e
   
     
