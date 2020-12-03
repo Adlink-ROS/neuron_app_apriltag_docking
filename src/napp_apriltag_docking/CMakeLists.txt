@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(napp_navigation)
+project(napp_apriltag_docking)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -34,7 +34,7 @@ endif()
 
 # Install launch files.
 install(DIRECTORY
-  launch
+  launch rviz
   DESTINATION share/${PROJECT_NAME}/
 )
 
