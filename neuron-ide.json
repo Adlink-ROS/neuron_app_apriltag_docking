@@ -17,7 +17,9 @@
     "Run": {
         "cmd": {
             "gazebo": "ros2 launch napp_apriltag_docking gazebo_docking.launch.py",
+            "docking simulation": "ros2 launch apriltag_docking autodock_gazebo.launch.py"
             "neuronbot": "ros2 launch napp_apriltag_docking neuronbot_docking.launch.py"
+            "docking realworld": "ros2 launch apriltag_docking autodock_neuronbot.launch.py"
         }
     },
     "Environment": {
