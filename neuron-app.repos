@@ -18,11 +18,11 @@ repositories:
   apriltag_ros:
     type: git
     url: https://github.com/H-HChen/apriltag_ros.git
-    version: b626542e1879ce39a56986abf9d4c21e5e3d220a
+    version: c46b0a20be3d108a3843ad283338deb722c2bc15
   apriltag_docking:
     type: git
     url: https://github.com/H-HChen/apriltag_docking.git
-    version: d77a7fdc1f58141e12e14fd89d2fca725cc096b7
+    version: 1b5aee6d0c5e9912d329cc1d1028b96eeef0a77b
   realsense-ros:
     type: git
     url: https://github.com/Adlink-ROS/realsense-ros.git
