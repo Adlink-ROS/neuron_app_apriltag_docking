@@ -18,7 +18,7 @@ repositories:
   apriltag_ros:
     type: git
     url: https://github.com/H-HChen/apriltag_ros.git
-    version: 7ba1e1ec8770f11504f0f8083878440c7617af32
+    version: b626542e1879ce39a56986abf9d4c21e5e3d220a
   apriltag_docking:
     type: git
     url: https://github.com/H-HChen/apriltag_docking.git
