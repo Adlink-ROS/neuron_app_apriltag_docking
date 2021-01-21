@@ -19,7 +19,7 @@
             "gazebo": "ros2 launch napp_apriltag_docking gazebo_world.launch.py",
             "docking simulation": "ros2 launch napp_apriltag_docking gazebo_docking.launch.py",
             "neuronbot": "ros2 launch napp_apriltag_docking neuronbot_bringup.launch.py",
-            "docking realworld": "ros2 launch napp_apriltag_docking neuronbot_docking.launch.py ",
+            "docking realworld": "ros2 launch napp_apriltag_docking neuronbot_docking.launch.py "
         }
     },
     "Environment": {
