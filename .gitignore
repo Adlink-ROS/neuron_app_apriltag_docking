@@ -1,0 +1,9 @@
+build
+install
+log
+.*.swp
+.theia
+.cache
+src/*
+!src/napp_*
+__pycache__
