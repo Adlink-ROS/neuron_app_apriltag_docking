@@ -17,8 +17,9 @@ def generate_launch_description():
     neuron_app_bringup = GroupAction([
       
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([gazebo_launch_dir, '/autodock_gazebo.launch.py']),
+            PythonLaunchDescriptionSource([docking_launch_dir, '/autodock_gazebo.launch.py']),
         ),
+    ])
 
     ld = LaunchDescription()
     ld.add_action(neuron_app_bringup)
