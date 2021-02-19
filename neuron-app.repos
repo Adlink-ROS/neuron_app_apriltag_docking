@@ -14,7 +14,7 @@ repositories:
   apriltag:
     type: git
     url: https://github.com/AprilRobotics/apriltag.git
-    version: e0ba863c65589e551e9d8647874a83f39978b473
+    version: master
   apriltag_ros:
     type: git
     url: https://github.com/H-HChen/apriltag_ros.git
@@ -22,10 +22,10 @@ repositories:
   apriltag_docking:
     type: git
     url: https://github.com/H-HChen/apriltag_docking.git
-    version: 1b5aee6d0c5e9912d329cc1d1028b96eeef0a77b
+    version: neuron-app
   realsense-ros:
     type: git
     url: https://github.com/Adlink-ROS/realsense-ros.git
-    version: 42df47ad3612e6a07e082c5e3913cf06b47bb83f
+    version: fix_ros2_launch_params
   
     
