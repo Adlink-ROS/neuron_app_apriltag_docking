@@ -17,12 +17,12 @@ repositories:
     version: master
   apriltag_ros:
     type: git
-    url: https://github.com/H-HChen/apriltag_ros.git
+    url: https://github.com/Adlink-ROS/apriltag_ros.git
     version: foxy-devel
   apriltag_docking:
     type: git
-    url: https://github.com/H-HChen/apriltag_docking.git
-    version: neuron-app
+    url: https://github.com/Adlink-ROS/apriltag_docking.git
+    version: foxy-devel
   realsense-ros:
     type: git
     url: https://github.com/Adlink-ROS/realsense-ros.git
