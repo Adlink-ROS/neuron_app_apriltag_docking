@@ -1,4 +1,4 @@
-# Neuron APP: SLAM
+# Neuron APP: Apriltag Docking
 
 # Support Platform:
 
@@ -13,31 +13,31 @@
 
 ## Quickstart
 
-1. Click application in Neuron App to open workspace. **Click SLAM.**  It will build the resource at first time it's opened.
+1. Click application in Neuron App to open workspace. **Click Apriltag_docking.**  It will build the resource at first time it's opened.
      ![](readme_resource/open_app.png)
-   
+
 2-1. Click "packages" on the right side.
 
-2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_slam"
-     ![](readme_resource/click_resourse_slam.png)
-     
+2-2. Open list by click "RESOURCES" -> "user-workspace" -> "napp_apriltag_docking"
+     ![](readme_resource/click_resourse_docking.jpg)
+
 
 ***NOTE!!! Following instruction would need : Right click desired launch file and click "Run" -> "Run Launch File" as image bellow***
 
-   ![](readme_resource/launch_slam.png)
-     
-3. Launch SLAM and Rviz, choose **ONE**  file to launch: 
-   
-     * For simulation, launch SLAM application and Gazebo simultaneously: **Launch gazebo_slam.launch.py**
-     
-     * Deploy on Neuronbot2: **Launch neuronbot_inspection.launch.py**
+   ![](readme_resource/launch_docking.png)
 
-4. Teleop NeuronBot2 to explore the world, click and drag on the mouse teleop.
-   
-   ![](readme_resource/mouse_slam.gif)
-   
-5. Save the map, **Launch map_saver_cli.launch.py**
+3. Launch Camera and Neuronbot2, choose **ONE**  file to launch:
 
-   The saved map will be stored in directory of neuron_app_slam, which is "yourmap.yaml" and "yourmap.pgm".
+     * For simulation, launch SLAM application and Gazebo simultaneously: **Launch gazebo_world.launch.py**
 
-   Then, you shall turn off SLAM.
+     * Deploy on Neuronbot2: **Launch neuronbot_bringup.launch.py**
+
+4. Launch tag detector and controller, choose **ONE**  file to launch:
+
+     * For simulation, launch SLAM application and Gazebo simultaneously: **Launch gazebo_docking.launch.py**
+
+     * Deploy on Neuronbot2: **Launch neuronbot_docking.launch.py**
+
+5. After docking is finish, shutdown the controller.
+
+     ![](readme_resource/docking_demo.gif)

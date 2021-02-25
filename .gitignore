@@ -6,3 +6,4 @@ log
 .cache
 src/*
 !src/napp_*
+__pycache__
